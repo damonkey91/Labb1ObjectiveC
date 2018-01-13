@@ -13,6 +13,7 @@
 		725DDEEC200A434A00C11258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725DDEEB200A434A00C11258 /* Assets.xcassets */; };
 		725DDEEF200A434A00C11258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725DDEED200A434A00C11258 /* LaunchScreen.storyboard */; };
 		725DDEF2200A434A00C11258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 725DDEF1200A434A00C11258 /* main.m */; };
+		725DDEFA200A691C00C11258 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725DDEF9200A691C00C11258 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		725DDEEE200A434A00C11258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725DDEF0200A434A00C11258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725DDEF1200A434A00C11258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		725DDEF8200A691C00C11258 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		725DDEF9200A691C00C11258 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				725DDEE6200A434A00C11258 /* ViewController.m */,
 				725DDEE8200A434A00C11258 /* Main.storyboard */,
 				725DDEEB200A434A00C11258 /* Assets.xcassets */,
+				725DDEF8200A691C00C11258 /* GameViewController.h */,
+				725DDEF9200A691C00C11258 /* GameViewController.m */,
 				725DDEED200A434A00C11258 /* LaunchScreen.storyboard */,
 				725DDEF0200A434A00C11258 /* Info.plist */,
 				725DDEF1200A434A00C11258 /* main.m */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725DDEFA200A691C00C11258 /* GameViewController.m in Sources */,
 				725DDEE7200A434A00C11258 /* ViewController.m in Sources */,
 				725DDEF2200A434A00C11258 /* main.m in Sources */,
 				725DDEE4200A434A00C11258 /* AppDelegate.m in Sources */,
