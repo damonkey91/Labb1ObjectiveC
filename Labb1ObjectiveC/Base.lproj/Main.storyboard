@@ -67,7 +67,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Main menu" id="Uvn-uG-VnN"/>
+                    <navigationItem key="navigationItem" title="Main menu" id="Uvn-uG-VnN">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="Ivu-ns-1ON"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -150,7 +152,7 @@
                                 <rect key="frame" x="16" y="64" width="343" height="389"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Mitt namn är Tobias och jag är 26 år. Kommer från Falkenberg men har bott i Linköping i sex år. Flyttade till Linköping för att Netto lagret i Falkenberg, där jag sommarjobbade, skulle starta ett nytt lager i Linköping och de som följde med upp fick fast anställning. Så vi var ett gäng som flyttade med upp. Efter att ha jobbat där i två år så ville jag göra något nytt och började då att studera medicinsk biologi. Studierna gick bra det första året men tappade motivationen det andra året och hoppade av. Började då återigen att jobba på netto lagret.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -175,7 +177,7 @@
                                 <rect key="frame" x="16" y="64" width="343" height="542"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <mutableString key="text">Efter flera års arbete på lager insåg jag att jag vill göra något nytt. Jag kände en drivkraft av att lära mig nya saker och började googla runt. Hittade svets utbildningar, el utbildningar och programmerings urbildningar. Eftersom jag alltid har haft en dragning till datorer och varit intresserad av att lära mig koda tänkte jag att det var värt att testa programmering. Jag letade upp några utbildningar på nätet om programmering och insåg snabbt att det var riktigt kul. Känslan att få skapa något och hela tiden kunna se att man gör framsteg i lärandet var fantastisk. Så då var det bara att googla fram en riktig utbildning som man kunde gå och då dök ITHS upp. När jag såg att de hade en utbildning för apputvecklare nappade jag direkt. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
