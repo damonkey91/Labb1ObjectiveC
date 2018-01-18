@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)settingsButton:(id)sender {
+    self.view.backgroundColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
