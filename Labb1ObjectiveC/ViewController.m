@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property ColorSettings *change;
 @end
 
 @implementation ViewController
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [ColorSettings colorer];
 }
 
 - (IBAction)settingsButton:(id)sender {
@@ -27,6 +29,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    //self.view.backgroundColor = [self.change colorer];
+    self.view.backgroundColor = [ColorSettings colorer];
 }
 
 

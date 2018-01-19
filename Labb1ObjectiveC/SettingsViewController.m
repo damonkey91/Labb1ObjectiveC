@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import "ColorSettings.h"
 
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UISlider *redSlider;
@@ -18,12 +19,17 @@
 @implementation SettingsViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.view.backgroundColor = [ColorSettings colorer];
+
 }
 - (IBAction)switchChanged:(id)sender {
-    self.view.backgroundColor = [UIColor colorWithRed:self.redSlider.value green:self.greenSlider.value blue:self.blueSlider.value alpha:1];
-    //self.view.backgroundColor = [UIColor colorWithRed:[self invertColor:self.redSlider.value] green:[self invertColor:self.greenSlider.value] blue:[self invertColor:self.blueSlider.value] alpha:1];
+     UIColor *color = [UIColor colorWithRed:self.redSlider.value green:self.greenSlider.value blue:self.blueSlider.value alpha:1];
+    self.view.backgroundColor = color;
+   
+    [[NSUserDefaults standardUserDefaults] setFloat:self.redSlider.value  forKey:@"savedRed"];
+    [[NSUserDefaults standardUserDefaults] setFloat: self.greenSlider.value forKey:@"savedGreen"];
+    [[NSUserDefaults standardUserDefaults] setFloat:self.blueSlider.value  forKey:@"savedBlue"];
     
 }
 
