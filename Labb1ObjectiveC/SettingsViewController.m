@@ -19,9 +19,20 @@
 @implementation SettingsViewController
 
 - (void)viewDidLoad {
-
+    [super viewDidLoad];
     self.view.backgroundColor = [ColorSettings colorer];
-
+    float red = [[NSUserDefaults standardUserDefaults] floatForKey:@"savedRed"];
+    float green = [[NSUserDefaults standardUserDefaults] floatForKey:@"savedGreen"];
+    float blue = [[NSUserDefaults standardUserDefaults] floatForKey:@"savedBlue"];
+    if (!red && !green && !blue) {
+        self.redSlider.value = 1;
+        self.greenSlider.value = 1;
+        self.blueSlider.value = 1;
+    }else{
+        self.redSlider.value = red;
+        self.greenSlider.value = green;
+        self.blueSlider.value = blue;
+    }
 }
 - (IBAction)switchChanged:(id)sender {
      UIColor *color = [UIColor colorWithRed:self.redSlider.value green:self.greenSlider.value blue:self.blueSlider.value alpha:1];

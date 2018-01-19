@@ -10,7 +10,15 @@
 
 @implementation ColorSettings
 +(UIColor*)colorer{
-    UIColor *color = [UIColor colorWithRed:[[NSUserDefaults standardUserDefaults] floatForKey:@"savedRed"] green:[[NSUserDefaults standardUserDefaults] floatForKey:@"savedGreen"] blue:[[NSUserDefaults standardUserDefaults] floatForKey:@"savedBlue"] alpha:1];
+    UIColor *color;
+    float red = [[NSUserDefaults standardUserDefaults] floatForKey:@"savedRed"];
+    float green = [[NSUserDefaults standardUserDefaults] floatForKey:@"savedGreen"];
+    float blue = [[NSUserDefaults standardUserDefaults] floatForKey:@"savedBlue"];
+    if (!red && !green && !blue) {
+        color = [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
+    }else{
+        color = [UIColor colorWithRed:red green:green blue:blue alpha:1];
+    }
     return color;
 }
 
