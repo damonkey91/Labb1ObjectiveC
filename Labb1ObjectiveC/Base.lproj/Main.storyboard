@@ -204,7 +204,7 @@
         <!--About me-->
         <scene sceneID="5Ji-0G-IpR">
             <objects>
-                <viewController title="About me" id="Omd-hd-WCd" sceneMemberID="viewController">
+                <viewController title="About me" id="Omd-hd-WCd" customClass="AboutMeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L6J-yM-sqg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,7 +220,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0u6-de-cMc">
                                 <rect key="frame" x="16" y="64" width="343" height="389"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">Mitt namn är Tobias och jag är 26 år. Kommer från Falkenberg men har bott i Linköping i sex år. Flyttade till Linköping för att Netto lagret i Falkenberg, där jag sommarjobbade, skulle starta ett nytt lager i Linköping och de som följde med upp fick fast anställning. Så vi var ett gäng som flyttade med upp. Efter att ha jobbat där i två år så ville jag göra något nytt och började då att studera medicinsk biologi. Studierna gick bra det första året men tappade motivationen det andra året och hoppade av. Började då återigen att jobba på netto lagret.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -237,7 +237,7 @@
         <!--Why ITHS-->
         <scene sceneID="Nng-6R-bJK">
             <objects>
-                <viewController title="Why ITHS" id="vik-IZ-ctf" sceneMemberID="viewController">
+                <viewController title="Why ITHS" id="vik-IZ-ctf" customClass="WhyITHSViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cYd-i6-Hwr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,7 +245,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TZc-He-mvI">
                                 <rect key="frame" x="16" y="64" width="343" height="542"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">Efter flera års arbete på lager insåg jag att jag vill göra något nytt. Jag kände en drivkraft av att lära mig nya saker och började googla runt. Hittade svets utbildningar, el utbildningar och programmerings urbildningar. Eftersom jag alltid har haft en dragning till datorer och varit intresserad av att lära mig koda tänkte jag att det var värt att testa programmering. Jag letade upp några utbildningar på nätet om programmering och insåg snabbt att det var riktigt kul. Känslan att få skapa något och hela tiden kunna se att man gör framsteg i lärandet var fantastisk. Så då var det bara att googla fram en riktig utbildning som man kunde gå och då dök ITHS upp. När jag såg att de hade en utbildning för apputvecklare nappade jag direkt. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
